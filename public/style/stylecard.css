@@ -1,0 +1,61 @@
+.button-rekomendasi {
+    width: 145px;
+    height: 45px;
+    background-color: #4C7B8B;
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+}
+
+#rekomendasi h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-rekomendasi img {
+    width: 250px;
+    /* Atur lebar sesuai kebutuhan */
+    height: auto;
+    /* Memastikan proporsi gambar tetap terjaga */
+    border-radius: 8px;
+    /* Opsional: menambahkan sudut melengkung */
+}
+
+.card-rekomendasi h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-rekomendasi span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-rekomendasi h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-rekomendasi button {
+    background-color: #4C7B8B;
+    color: #fff;
+    border: none;
+    width: 145px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-rekomendasi .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-rekomendasi .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}

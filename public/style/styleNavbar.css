@@ -1,0 +1,129 @@
+.navbar {
+    background-color: #fff;
+    height: 70px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #4C7B8B;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button {
+    background-color: #23486A;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 500px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover {
+    background-color: #4C7B8B;
+    color: #f3f3ef;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25res;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #4C7B8B;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #000;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        /* background-color: #4C7B8B; */
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.hero-section {
+    background: url("/images/cover/cover2.jpeg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    margin-top: 60px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.galeri-button {
+    background-color: #D8C4B6;
+    color: #23486A;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    text-align: center;
+
+    /* Untuk menempatkan tombol di tengah */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.galeri-button:hover {
+    background-color: #4C7B8B;
+    color: #f3f3ef;
+}
