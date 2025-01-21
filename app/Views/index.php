@@ -161,7 +161,7 @@
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
 
-            <button class="button-arrow-left position-absolute start-8 top-50 translate-middle-y">
+            <button class="button-arrow-right position-absolute start-8 top-50 translate-middle-y">
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
 
